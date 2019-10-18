@@ -1,0 +1,14 @@
+<template name="af0cffdc">
+  <view bindtap="handleProxy" class="_div data-v-20f904de tmpContainer" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-20f904de avatar_date">
+      <image src="{{item.avatar}}" alt class="_img data-v-20f904de"></image> <label class="_span data-v-20f904de">{{item.date}}</label>
+    </view>
+    <view class="_p data-v-20f904de company">{{item.title}}</view>
+    <image class="_img data-v-20f904de detail_img" src="{{item.detail_img}}" alt></image>
+    <view class="_p data-v-20f904de content">{{item.detail_content}}</view>
+    <view class="_div data-v-20f904de view_star_container">
+      <image src="/static/images/icon/star.png" alt class="_img data-v-20f904de"></image> <label class="_span data-v-20f904de">{{item.love_count}}</label>
+      <image src="/static/images/icon/view.png" alt class="_img data-v-20f904de"></image> <label class="_span data-v-20f904de">{{item.attention_count}}</label>
+    </view>
+  </view>
+</template>

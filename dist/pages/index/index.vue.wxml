@@ -1,0 +1,9 @@
+<template name="821c8300">
+  <view class="_div data-v-98388602 indexContainer">
+    <image wx:if="{{isShow}}" class="_img data-v-98388602 index_img" src="{{userInfo.avatarUrl}}" alt></image><button class="_button data-v-98388602 btn" wx:else open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">点击获取用户信息</button>
+    <view class="_p data-v-98388602 userName">hello {{userInfo.nickName}}</view>
+    <view bindtap="handleProxy" class="_div data-v-98388602 goStudy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <view class="_p data-v-98388602">开启小程序之旅</view>
+    </view>
+  </view>
+</template>

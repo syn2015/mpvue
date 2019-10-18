@@ -1,0 +1,19 @@
+<import src="/pages/list_template/list_template.vue.wxml" /><template name="69293c54">
+  <view class="_div data-v-4477a2ce listContainer">
+    <swiper indicator-dots indicator-color="pink" indicator-active-color="green" class="_swiper data-v-4477a2ce">
+      <swiper-item class="_swiper-item data-v-4477a2ce">
+        <image src="/static/images/detail/carousel/01.jpg" alt class="_img data-v-4477a2ce"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-4477a2ce">
+        <image src="/static/images/detail/carousel/02.jpg" alt class="_img data-v-4477a2ce"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-4477a2ce">
+        <image src="/static/images/detail/carousel/03.jpg" alt class="_img data-v-4477a2ce"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-4477a2ce">
+        <image src="/static/images/detail/carousel/04.jpg" alt class="_img data-v-4477a2ce"></image>
+      </swiper-item>
+    </swiper>
+    <view class="_div data-v-4477a2ce"><template wx:key="index" data="{{...$root[$kk+'4-'+index], $root}}" is="af0cffdc" wx:for="{{listTmp}}" wx:for-index="index" wx:for-item="item"></template></view>
+  </view>
+</template>

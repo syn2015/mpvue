@@ -1,0 +1,13 @@
+<template name="6e30fd98">
+  <view class="_div data-v-775a81b9">
+    <view bindtap="handleProxy" class="_div data-v-775a81b9 moviesContainer" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{moviesArr}}" wx:for-index="index" wx:for-item="item">
+      <image class="_img data-v-775a81b9 movies_img" src="{{item.images.large}}" alt></image>
+      <view class="_div data-v-775a81b9 movies_info">
+        <view class="_p data-v-775a81b9 movies_name">{{item.original_title}}</view>
+        <view class="_p data-v-775a81b9 movies_year">年份: {{item.year}}</view>
+        <view class="_p data-v-775a81b9 movies_dir">导演: {{item.directors[0].name}}</view>
+      </view>
+      <view class="_p data-v-775a81b9 movies_rating">{{item.rating.average}}</view>
+    </view>
+  </view>
+</template>

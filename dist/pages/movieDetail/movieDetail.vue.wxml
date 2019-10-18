@@ -1,0 +1,7 @@
+<template name="ee3463c4">
+  <view class="_div data-v-22ae5846 movieDetailContainer">
+    <image src="{{movieDetail.images.large}}" alt class="_img data-v-22ae5846"></image>
+    <view class="_p data-v-22ae5846 movie_name">{{movieDetail.original_title}}</view>
+    <view class="_div data-v-22ae5846 detail_content"><label class="_span data-v-22ae5846">评分：{{movieDetail.rating.average}}</label> <label class="_span data-v-22ae5846">导演：{{movieDetail.directors[0].name}}</label> <label class="_span data-v-22ae5846">主演：{{movieDetail.casts[0].name}} {{movieDetail.casts[1].name}} {{movieDetail.casts[2].name}}</label></view> <button class="_button data-v-22ae5846">我要观影</button>
+  </view>
+</template>
